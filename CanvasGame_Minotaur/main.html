@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet1" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+    </head>
+    <body>
+        <div class="absolute"><span>SCORE: </span><span id="scoreNum">0</span></div>
+        <div class="absolute1"><span>HEALTH: </span><span id="healthNum">1</span></div>
+        <div class="absolute2"><span>DMG: </span><span id="dmgNum">1</span></div>
+        <div id="scrollbox"></div>
+        <div class="bg-white">
+            <div class="box">
+                <div class="tekst">
+                    <p style="text-align: center; margin: 0;">HIGH SCORE:</p>
+                    <h1 style="text-align: center; margin-bottom: 0;" id="modalScore">0</h1>
+                </div>
+                <div class="buttonclass">
+                    <button class="buttonlook">Begin Thy Adventure</button>
+                </div>
+                <div class="optionclass">
+                    <button class="buttonlook">Options</button>
+                </div>
+            </div>
+        </div>
+        <div class="option-white">
+            <div class="box">
+                <div class="optiontekst">
+                    <p style="text-align: left; margin: 0;padding: 2px;">LEFT:<span id="leftbutton">KeyA</span></p>
+                    <p style="text-align: left; margin: 0;padding: 2px;">RIGHT:<span id="rightbutton">KeyD</span></p>
+                    <p style="text-align: left; margin: 0;padding: 2px;">SHOOT: Left Click</p>
+                    <div class="reassignbuttons">
+                        <button class="buttonlookres" >reassign</button>
+                        <br>
+                        <button class="buttonlookres">reassign</button>
+                        <br>
+                    </div>
+                </div>
+                <div class="musictekst">
+                    <p style="text-align: left; margin: 0;padding: 2px;">VOLUME: </p>
+                </div>
+                <div class="slider">
+                    <input type="range" min="1" max="80" value="79" class="volume_slider"> 
+                </div>
+                <div class="backclass">
+                    <button class="buttonlook">  Back  </button>
+                </div>
+            </div>
+        </div>
+        <canvas id="canvas">Canvas</canvas>
+        <img id="myImage" src="IdleCentaur.png" hidden>
+        <img id="myArrow" src="arrow.png" hidden>
+        <img id="myHarpy" src="IdleHarpy.png" hidden>
+        <img id="myBackground" src="background.jpg" hidden>
+        <img id="my1Up" src="1Up.png" hidden>
+        <img id="myXtraDmg" src="EkstraDMG.png" hidden>
+        <img id="myScroll" src="scroll.png" hidden>
+
+        
+
+        <!--Added GSAP Animation library-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" 
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" 
+        crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>

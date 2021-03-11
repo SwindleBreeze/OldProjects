@@ -1,0 +1,176 @@
+#canvas{
+    border:1px solid black;
+    z-index: -1;
+}
+
+@font-face{
+    font-family: "myFont";
+    src: url(DalekPinpointBold.ttf);
+}
+
+body{
+    margin: 0;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden
+}
+
+.absolute{
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    user-select: none;
+    font-family: "myFont";
+}
+
+.absolute1{
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 50px;
+    user-select: none;
+    font-family: "myFont";
+}
+.absolute2{
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 90px;
+    user-select: none;
+    font-family: "myFont";
+}
+
+.bg-white{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.option-white{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: transparent;
+}
+
+.tekst{
+    position: absolute;
+    top: 10%;
+    left: 41.7%;
+    user-select: none;
+    font-family: "myFont";
+}
+
+.optiontekst{
+    position: absolute;
+    width: 200px;
+    top: 10%;
+    left: 31%;
+    user-select: none;
+    font-family: "myFont";
+}
+.musictekst{
+    position: absolute;
+    width: 200px;
+    top: 48%;
+    left: 31%;
+    user-select: none;
+    font-family: "myFont";
+}
+
+.buttonclass{
+    left: 26%;
+    top: 45%;
+    margin: 15px;
+    position: absolute;
+}
+
+.optionclass{
+    left: 36.3%;
+    top: 68%;
+    margin: 15px;
+    position: absolute;
+}
+
+.backclass{
+    left: 37.5%;
+    top: 60%;
+    margin: 15px;
+    position: absolute;
+}
+
+.buttonlook{
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "myFont";
+}
+.buttonlookres{
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    font-family: "myFont";
+}
+.reassignbuttons{
+    right: 0%;
+    position: absolute;
+    top: 0%;
+}
+
+.slider{
+    top:50%;
+    left: 47%;
+    position: absolute;
+}
+
+
+.box{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    top: 45%;
+    left: 37%;
+    background: transparent;
+}
+
+.volume_slider:hover{
+    opacity: 1;
+}
+.volume_slider{
+    -webkit-appearance: none;
+    background: grey;
+    outline: 1px;
+    opacity: 0.7;
+    border-radius: 10px;  
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: black; /* black background */
+    border-radius: 50%; 
+    cursor: pointer; /* Cursor on hover */
+    outline: 1px;
+  }
