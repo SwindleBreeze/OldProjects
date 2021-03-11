@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/sound">
+        <file>shoot.wav</file>
+        <file>spaceinvaders1.mp3</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>bullet.png</file>
+        <file>mysteryb.ico</file>
+        <file>prenos.png</file>
+        <file>saucer2b.ico</file>
+        <file>f24b73b2c25937db2a2d24b7b6546e14.png</file>
+        <file>MenuTest1.png</file>
+        <file>baseshipb.ico</file>
+    </qresource>
+</RCC>
